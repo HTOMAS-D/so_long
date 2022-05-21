@@ -48,7 +48,7 @@ int main(void)
 				my_mlx_pixel_put(&img, i, j, 0x00FF1616);
 			}
 			j++;
-		}
+		} 
 		j = 250;
 		my_mlx_pixel_put(&img, i, j, 0x00FF1674);
 		i++;
