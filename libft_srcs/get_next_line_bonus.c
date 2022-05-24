@@ -59,7 +59,7 @@ char	*get_next_line(int fd)
 	str[fd] = ft_exstrchr(str[fd]);
 	return (save);
 }
-int main()
+/*int main()
 {
 	int fd1;
 	int fd2;
@@ -79,4 +79,4 @@ int main()
 	line = get_next_line(fd2);
 	printf("%s", line);
 	free(line);
-}
+}*/

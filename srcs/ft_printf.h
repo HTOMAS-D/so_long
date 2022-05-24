@@ -31,7 +31,7 @@ void	ft_putsigned(t_print *tab);
 void	ft_putunsigned(t_print *tab);
 char	*ft_itoa(int c);
 char	*ft_utoa(long c);
-size_t		ft_strlen(const char *str);
+int		ft_strlen(char *str);
 void	*ft_calloc(size_t count, size_t size);
 void	ft_bzero(void *s, size_t n);
 void	*ft_memset(void *b, int c, size_t len);

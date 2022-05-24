@@ -2,8 +2,7 @@ SRCS		=	so_long.c \
 
 LIBFT_SRCS	=	ft_printf.c ft_bzero.c get_next_line_utils_bonus.c get_next_line_bonus.c \
 			ft_calloc.c ft_itoa.c ft_memset.c ft_putchar.c ft_putex.c ft_putexup.c \
-			ft_putptr.c ft_putsigned.c ft_putstr.c ft_putunsigned.c ft_strlen ft_uitoa.c \
-			ft_utoa.c
+			ft_putptr.c ft_putsigned.c ft_putstr.c ft_putunsigned.c ft_uitoa.c
 OBJS	= $(addprefix objs/,$(SRCS:.c=.o))
 
 LIBFT_OBJS	= $(addprefix objs/,$(LIBFT_SRCS:.c=.o))
